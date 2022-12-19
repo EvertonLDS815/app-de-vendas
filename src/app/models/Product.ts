@@ -13,7 +13,7 @@ export const Product = model('Product', new Schema({
         required: true,
     },
     price: {
-        type: String,
+        type: Number,
         required: true,
     },
     ingredients: {
